@@ -377,6 +377,7 @@ layouts = [
     layout.Tile(
         border_width=2,
         margin=6,
+        ratio=0.5,
         border_focus=gruv_mat["grey"],
         border_normal=gruv_mat["dark"],
     ),
