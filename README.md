@@ -1,4 +1,8 @@
 # Qtile 
+# Installation
+```
+git clone https://github.com/BIBJAW/myqtile && cp -r ~/myqtile/CONFIGS/* ~/.config/ && chmod +x ~/.config/qtile/scripts/power.sh && chmod +x ~/.config/qtile/scripts/autostart.sh
+```
 ![Screenshot](https://github.com/BIBJAW/myqtile/blob/main/images/qtile_rice.png?raw=true)
 
 # Keybindings
