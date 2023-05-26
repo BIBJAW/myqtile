@@ -18,7 +18,7 @@ gruv_mat = {
 
 gruvbox = {
     "black": "#000000",
-    "dark": "#1d2021",
+    "dark": "#141617",
     "disabled": "#504945",
     "red": "#fb4934",
     "red-alt": "#cc241d",
@@ -33,7 +33,7 @@ gruvbox = {
     "blue": "#83a598",
     "blue-alt": "#458588",
     "grey": "#504945",
-    "dark-grey": "#303030",
+    "dark-grey": "#1d2021",
     "cream": "#ebdbb2",
     "cream-alt": "#bdae93",
     "white": "#FFFFFF",
