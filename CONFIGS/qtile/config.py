@@ -453,8 +453,6 @@ extension_defaults = widget_defaults.copy()
 
 screens = [
     Screen(
-        wallpaper="~/Pictures/backgrounds/dragon-ball-goku-gohan.png",
-        wallpaper_mode="fill",
         top=bar.Bar(
             [
                 #########################
