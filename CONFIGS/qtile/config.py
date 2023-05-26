@@ -17,14 +17,21 @@ from colors import gruv_mat
 from colors import gruvbox
 
 #########################################
-########## Auto Start Programs ##########
+#############    hooks     ##############
 #########################################
+
+########## Auto Start Programs ##########
 
 
 @hook.subscribe.startup_once
 def autostart():
     home = os.path.expanduser("~/.config/qtile/scripts/autostart.sh")
     subprocess.Popen([home])
+
+
+@hook.subscribe.group_window_add
+def switchtogroup(group, window):
+    group.cmd_toscreen()
 
 
 #########################################
