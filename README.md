@@ -1,3 +1,5 @@
+# ALERT!: All My configs will be maintained [here](https://github.com/BIBJAW/united_repo_of_configs) from now on....
+
 # Qtile 
 # Installation
 ```
